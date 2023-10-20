@@ -1,0 +1,174 @@
+body{
+    background-color: #527C51;
+    padding: 0.5rem;
+    grid-column: 1/6;
+}
+
+h1, h2, h3, h4, p{
+    color: white;
+}
+
+h1{ 
+    font-size: 200px;
+}
+
+h2{
+    font-size: 90px;
+}
+
+h3{
+    font-size: 50px;
+}
+
+h4{
+    font-size: 35px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1 500px;
+    gap: 2rem;
+
+}
+
+.title{
+    font-family: 'Audiowide', sans-serif;
+}
+.description1{
+    resize: horizontal;
+    overflow: auto;
+    width: 800px;
+    position: relative;
+    left: 500px;
+    background-color: #9F9F9F;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 32px;
+    text-align: right;
+    padding: 20px;
+   
+}
+.LetterAG{
+    font-family: 'Audiowide', sans-serif;
+    border: 6px solid #9F9F9F;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 350px;
+    padding: 0.25rem;
+
+}
+.LetterHN{
+    font-family: 'Audiowide', sans-serif;
+    border: 6px solid #9F9F9F;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 350px;
+    padding: 0.25rem;
+}
+.LetterOU{
+    font-family: 'Audiowide', sans-serif;
+    border: 6px solid #9F9F9F;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 350px;
+    padding: 0.5rem;
+}
+.LetterVZ{
+    font-family: 'Audiowide', sans-serif;
+    border: 6px solid #9F9F9F;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    left: 350px;
+    padding: 0.5rem;
+}
+
+.Characters{ 
+    font-family: 'Audiowide', sans-serif;
+    font-size: 24px;
+}
+
+.display1{
+    background-color: #9F9F9F;
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+    width: 220px;
+    position: relative;
+    left: 400px;
+}
+
+.display2{
+    background-color: #9F9F9F;
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+    width: 150px;
+    position: relative;
+    left: 800px;
+}
+
+.display3{
+    background-color: #9F9F9F;
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+    width: 215px;
+    position: relative;
+    left: 100px;
+}
+
+.display4{
+    background-color: #9F9F9F;
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+    width: 175px;
+    position: relative;
+    left: 1100px;
+}
+
+.display5{
+    background-color: #9F9F9F;
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+    width: 195px;
+    position: relative;
+    left: 600px;
+}
+
+.BodyCopy{
+    text-align: right;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 20px;
+
+}
+.BodyCopy2{
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 15px;
+    background-color: #9F9F9F;
+}
+
+.BodyCopy3{
+    text-align: left;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 30px;
+}
+
+.Informational{
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Audiowide', sans-serif;
+    background-color: #9F9F9F;
+    position: relative;
+    width: 1000px;
+    padding: 0.25rem;
+
+}
+
+.Informational2{
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Audiowide', sans-serif;
+
+}
